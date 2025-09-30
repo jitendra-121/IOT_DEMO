@@ -7,7 +7,7 @@ Single-threaded IoT simulation with real D2C sends to Azure IoT Hub.
 Usage:
   # set env var with the device connection string obtained from `az iot hub device-identity connection-string show ...`
   export AZURE_DEVICE_CONN_STR="HostName=...;DeviceId=sim-device-1;SharedAccessKey=..."
-  pip install azure-iot-device python-dotenv
+  pip install azure-iot-device
   python azure_iot_single_thread.py --num 40 --sample-interval 0.5 --proc-duration 2.0
 """
 
