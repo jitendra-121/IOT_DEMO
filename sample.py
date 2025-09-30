@@ -6,7 +6,7 @@ from azure.iot.device import IoTHubDeviceClient, Message
 from azure.iot.device.exceptions import ConnectionFailedError, ConnectionDroppedError, ClientError
 
 # Replace with your DEVICE connection string from Azure IoT Hub
-CONNECTION_STRING = "HostName=nani-iot-hub.azure-devices.net;DeviceId=nani-iot-device;SharedAccessKey=vTJeoKINQipFqcc/ZLwSGC+6ozELKNV8HwnQY/MbYcE="
+CONNECTION_STRING = " "
 
 class IoTDevice:
     def __init__(self, connection_string):
